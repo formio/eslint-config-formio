@@ -1,3 +1,5 @@
+/* eslint-env node */
+/* eslint quotes: [2, "single", "avoid-escape"] */
 module.exports = {
     'extends': 'eslint:recommended',
     'rules': {
