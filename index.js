@@ -7,7 +7,7 @@ module.exports = {
     'block-scoped-var': 2,
     'brace-style': [2, 'stroustrup', { 'allowSingleLine': false }],
     'camelcase': 1,
-    'curly': 2,
+    'curly': [2, 'multi-line'],
     'eol-last': 2,
     'eqeqeq': [2, 'smart'],
     'max-depth': [1, 3],
@@ -19,7 +19,7 @@ module.exports = {
         newIsCap: true,
         capIsNew: true,
         newIsCapExceptions: [],
-        capIsNewExceptions: ['Router', 'Resource', 'Schema', 'ObjectId']
+        capIsNewExceptions: ['Router', 'Resource', 'Schema', 'ObjectId', 'Q']
       }
     ],
     'no-extend-native': 2,
