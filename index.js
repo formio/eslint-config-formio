@@ -21,14 +21,14 @@ module.exports = {
         newIsCap: true,
         capIsNew: true,
         newIsCapExceptions: [],
-        capIsNewExceptions: ['Router', 'Resource', 'Schema', 'ObjectId', 'Q']
+        capIsNewExceptions: ['Router', 'Resource', 'Schema', 'ObjectId', 'Q', 'Chance']
       }
     ],
     'no-cond-assign': 2,
     'no-extend-native': 2,
     'no-extra-semi': 2,
     'no-mixed-spaces-and-tabs': 2,
-    'no-multiple-empty-lines': 2,
+    'no-multiple-empty-lines': [2, {max: 1}],
     'no-spaced-func': 2,
     'no-trailing-spaces': 2,
     'no-underscore-dangle': 0,
