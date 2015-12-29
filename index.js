@@ -5,7 +5,7 @@ module.exports = {
   'rules': {
     'array-bracket-spacing': [2, 'never'],
     'block-scoped-var': 2,
-    'brace-style': [2, 'stroustrup', { 'allowSingleLine': false }],
+    'brace-style': [2, 'stroustrup', {'allowSingleLine': false}],
     'camelcase': 2,
     'callback-return': [2, ["callback", "_callback", "_cb", "cb", "next", "_next"]],
     'comma-style': 2,
@@ -13,8 +13,8 @@ module.exports = {
     'eol-last': 2,
     'eqeqeq': [2, 'smart'],
     'max-depth': [1, 3],
-    'max-statements': [1, 25],
-    'max-len': [1, 120],
+    'max-statements': [1, 30],
+    'max-len': [1, 120, 4, {"ignoreComments": true, "ignoreUrls": true}],
     'new-cap': [
       2,
       {
