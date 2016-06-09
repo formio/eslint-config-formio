@@ -1,5 +1,4 @@
 /* eslint-env node */
-/* eslint quotes: [2, "single", "avoid-escape"] */
 module.exports = {
   'extends': 'eslint:recommended',
   'rules': {
@@ -39,7 +38,7 @@ module.exports = {
     'padded-blocks': [2, 'never'],
     'quotes': [2, 'single', 'avoid-escape'],
     'semi': [2, 'always'],
-    'space-after-keywords': [2, 'always'],
+    'keyword-spacing': [2, {"after": true}],
     'space-before-blocks': 2,
     'space-before-function-paren': [2, 'never'],
     'space-unary-ops': 2
