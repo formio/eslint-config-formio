@@ -34,7 +34,7 @@ module.exports = {
     'no-use-before-define': [2, 'nofunc'],
     'no-unexpected-multiline': 2,
     'no-unused-vars': 1,
-    'object-curly-spacing': [2, 'always'],
+    'object-curly-spacing': [2, 'never'],
     'padded-blocks': [2, 'never'],
     'quotes': [2, 'single', 'avoid-escape'],
     'semi': [2, 'always'],
