@@ -12,6 +12,7 @@ module.exports = {
     'eol-last': 2,
     'eqeqeq': [2, 'smart'],
     'import/prefer-default-export': 0,
+    'jsx-a11y/no-noninteractive-element-interactions': 0,
     'max-depth': [1, 3],
     'max-statements': [1, 30],
     'max-len': [1, 120, 4, {"ignoreComments": true, "ignoreUrls": true}],
